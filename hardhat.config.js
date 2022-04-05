@@ -29,8 +29,10 @@ const etherscanKey=process.env.ETHERSCAN_KEY;
  */
 module.exports = {
   networks: {
-    localhost: {
-      url: "http://127.0.0.1:8545"
+    // localhost: {
+    //   url: "http://127.0.0.1:8545"
+    // },
+    hardhat: {
     },
     hardhat: {
     },
